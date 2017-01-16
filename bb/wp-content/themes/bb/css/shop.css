@@ -1,0 +1,369 @@
+/*
+    Theme Name: Butchers and Bicycles
+    Theme URI: http://woto-info.com
+    Description: WordPress theme for butchersandbicycles.com
+    Version: 1
+    Author: Igor Malinovskiy
+    Author URI: http://woto-info.com
+*/
+/*
+    header
+*/
+#shop-header {
+  background: none repeat scroll #e6e6e6;
+  border-bottom: 2px solid #bcb21e;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+#shop-logo {
+  background-image: url("/wp-content/themes/bb/images/logo_bb_shop.png");
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  display: inline-block;
+  height: 85px;
+  margin: 20px 0 0 10px;
+  width: 200px;
+}
+
+.sub-menu {
+}
+
+#shop-nav {
+  display: inline-block;
+  font: 16px "Lato",sans-serif;
+  position: absolute;
+  top: 40%;
+}
+
+@media only screen and (max-width: 450px), only screen and (max-device-width: 450px) {
+  #shop-nav {
+    /* margin-left: -25% */
+    display: none;
+  }
+
+  #shop-logo {
+    display: none;
+  }
+
+  #maincontent .shop-section:first-child {
+    padding-top: 0px !important;
+  }
+
+  .shop-section {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+/*
+	body
+*/
+#maincontent {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 320px;
+}
+
+a {
+  color: #bcb21e;
+}
+
+@media only screen and (min-width: 450px), only screen and (min-device-width: 450px) {
+  #maincontent .shop-section:first-child {
+    padding-top: 110px !important;
+  }
+}
+.shop-section {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+/*
+	User profile
+*/
+.profile-btn {
+  font-size: 10pt;
+  font-weight: normal;
+  padding: 3px 10px !important;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+/*
+	your personal configurations
+*/
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+  .gc-conf-head-wrapper {
+    display: block;
+    width: 95%;
+  }
+
+  .gc-conf-img {
+    display: block;
+    width: 100% !important;
+    height: auto;
+  }
+
+  .gc-conf-name {
+    width: 100%;
+  }
+
+  .gc-standard,
+  .gc-added {
+    float: none;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gc-added {
+    width: 100%;
+  }
+
+  .gc-conf-name {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 900px) and (max-width: 800px), only screen and (max-device-width: 900px) and (max-width: 800px), only screen and (max-width: 900px) and (max-device-width: 800px), only screen and (max-device-width: 900px) and (max-device-width: 800px) {
+  .sc_buttons > div {
+    display: block;
+    margin: 10px 0 !important;
+  }
+}
+/*
+	we offer 0% interest financing
+*/
+.interest_offer {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  background: #3c3c3c;
+  color: white;
+  padding: 3% 0;
+}
+
+.intwrapper :first-child {
+  margin-right: 1.8%;
+}
+
+.intwrapper :last-child {
+  margin-left: 1.8%;
+}
+
+.intwrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wmarg {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+  .interest_offer {
+    display: block;
+    width: 70%;
+    margin: 10px auto !important;
+  }
+}
+@media only screen and (max-width: 990px), only screen and (max-device-width: 990px) {
+  .interest_offer {
+    display: block;
+    width: 50%;
+    margin: 10px auto !important;
+  }
+}
+/*
+	login and register forms
+*/
+.login-wrapper div:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.button_div_wrapper {
+  width: 100%;
+  display: table;
+}
+
+.wpmem-pass-reset {
+  display: inline-block;
+}
+
+.form-inline-field-container > div {
+  display: inline-block;
+  width: 49.3% !important;
+}
+
+.form-inline-field-container input {
+  display: inline-block;
+}
+
+.news_subscription_checkbox {
+  padding: 25px 0;
+}
+
+/*
+	Constructor
+*/
+.bb-constructor-head,
+.bc_saved_conf,
+.welcome-section-wrapper {
+  margin: 50px auto;
+}
+
+.bb-constructor-head {
+  margin: 50px auto;
+  height: 40px;
+  text-transform: uppercase;
+  background: #3c3c3c;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+  /*  border: 1px solid $contrast-color; */
+  border: 1px solid white;
+}
+
+.bb-constructor-head p {
+  margin: 8px;
+}
+
+.bc_save_this {
+  display: inline;
+  margin: 0 25px 0 0;
+}
+
+.bc_saved_conf {
+  border-bottom: 1px solid #090909;
+}
+
+.bc_save_this {
+  display: inline;
+  margin: 0 25px 0 0;
+  cursor: pointer;
+}
+
+.bc_save_this p {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 0 10px 10px;
+}
+
+.save, .gotosaved {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+  margin: 0 0 -5px;
+}
+
+.save {
+  background-image: url("/wp-content/themes/bb/images/Save.svg");
+  height: 35px;
+  width: 20px;
+}
+
+.gotosaved {
+  background-image: url("/wp-content/themes/bb/images/Save2.svg");
+  height: 25px;
+  width: 35px;
+  margin: 0 0 -9px 0;
+}
+
+.price {
+  font-size: 14pt;
+  text-transform: uppercase;
+  color: #090909;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.price > div,
+.bc-input-btn div {
+  display: inline;
+}
+
+.bc_btn,
+.constr_btn {
+  font-weight: normal !important;
+  font-size: 10pt !important;
+  cursor: pointer;
+  padding: 3px 20px !important;
+}
+
+.help_btn {
+  font-weight: normal;
+  height: 49px;
+  padding: 0 15px 0 15px !important;
+}
+
+.bc_select_wrap {
+  background: url("../images/change_currency_bg.png") no-repeat scroll 100% 100% #bcb21e;
+  height: 49px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.bc_select_wrap select {
+  background: none no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: none;
+  box-shadow: none;
+  width: 110% !important;
+  height: 49px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-weight: normal;
+  font-size: 11pt;
+  padding-top: 13px !important;
+}
+
+.bc_select_wrap select:focus {
+  outline: none;
+}
+
+.bc_select_wrap option {
+  background: #bcb21e;
+  width: 300px;
+  box-shadow: none;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.bbpaypal-btn {
+  height: 49px;
+  padding: 0 30px 0 20px !important;
+  background: url("../images/arrow.png") 97% 50% no-repeat #bcb21e;
+  background-size: 4%;
+  font-size: 11pt;
+}
+
+@media only screen and (max-width: 850px), only screen and (max-device-width: 850px) {
+  .bc_featured_image {
+    display: block;
+    float: none;
+    height: auto;
+    width: auto;
+  }
+
+  .bc_external_parts {
+    text-align: center;
+  }
+
+  .bc-btn > div {
+    float: none;
+    margin: 10px 0;
+  }
+}

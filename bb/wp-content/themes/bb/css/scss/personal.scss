@@ -1,0 +1,44 @@
+/*
+	your personal configurations
+*/
+
+@import 'vars';
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+	.gc-conf-head-wrapper {
+		display: block;
+		width: 95%;
+	}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+	.sc_buttons > div {
+	    display: block;
+	    margin: 10px 0 !important;
+	}
+}
+	.gc-conf-img {
+		display: block;
+		width: 100% !important;
+		height: auto;
+	}
+
+	.gc-conf-name {
+		width: 100%;
+	}
+
+	.gc-standard,
+	.gc-added {
+		float: none;
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.gc-added {
+		width: 100%;
+	}
+
+	.gc-conf-name {
+		width: auto !important;
+	}
+}

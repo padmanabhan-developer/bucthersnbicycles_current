@@ -1,0 +1,61 @@
+<form action="" method="post">
+	<div class="setpage-wrapper">
+		<div class="setpage-control bb_opts_inp">
+
+			<?php $colors = get_option('bb_theme_options_colors'); ?>
+
+			<label for="bb_theme_options_colors[light_grey]">Light Grey:</label>
+			<input 
+				type="text" 
+				name="bb_theme_options_colors[light_grey]" 
+				id="bb_theme_options_colors[light_grey]"
+				placeholder="#3c3c3c"
+				value="<?php echo $colors['light_grey']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="bb_theme_options_colors[dark_grey]">Dark Grey:</label>
+			<input 
+				type="text" 
+				name="bb_theme_options_colors[dark_grey]" 
+				id="bb_theme_options_colors[dark_grey]"
+				placeholder="#3c3c3c"
+				value="<?php echo $colors['dark_grey']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="bb_theme_options_colors[black]">Black:</label>
+			<input 
+				type="text" 
+				name="bb_theme_options_colors[black]" 
+				id="bb_theme_options_colors[black]"
+				placeholder="#3c3c3c"
+				value="<?php echo $colors['black']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="bb_theme_options_colors[white]">White:</label>
+			<input 
+				type="text" 
+				name="bb_theme_options_colors[white]" 
+				id="bb_theme_options_colors[white]"
+				placeholder="#3c3c3c"
+				value="<?php echo $colors['white']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="bb_theme_options_colors[contrast]">Contrast colour:</label>
+			<input 
+				type="text" 
+				name="bb_theme_options_colors[contrast]" 
+				id="bb_theme_options_colors[contrast]"
+				placeholder="#3c3c3c"
+				value="<?php echo $colors['contrast']; ?>" 
+			>
+		</div>
+		<div>
+			<?php wp_nonce_field('bb_theme_settings_colors', 'settings_colors_submit'); ?>
+			<input type="submit" value="Submit">
+		</div>
+	</div>
+</form>

@@ -1,0 +1,68 @@
+#share {
+    height: 32px;
+    margin: 15px auto;
+}
+
+#share .pop {
+    margin: 0 5px;
+}
+
+.share-square {
+    -moz-transition: all .2s linear 0s;
+    background: url("../img/social-icons.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 32px;
+    line-height: 0;
+    margin: 2px;
+    width: 32px;
+    border: 0px none;
+}
+
+.share-square-facebook {
+    background-position: -384px -44px;
+}
+
+.share-square-facebook:hover {
+    background-position: -384px -77px;
+}
+
+.share-square-googleplus {
+    background-position: -288px -44px;
+}
+
+.share-square-googleplus:hover {
+    background-position: -288px -77px;
+}
+
+.share-square-instagram {
+    background-position: -608px -44px;
+}
+
+.share-square-instagram:hover {
+    background-position: -608px -77px;
+}
+
+.share-square-pinterest {
+    background-position: -192px -44px;
+}
+
+.share-square-pinterest:hover {
+    background-position: -192px -77px;
+}
+
+.share-square-stumbleupon {
+    background-position: -640px -44px;
+}
+
+.share-square-stumbleupon:hover {
+    background-position: -640px -77px;
+}
+
+.share-square-twitter {
+    background-position: -64px -44px;
+}
+
+.share-square-twitter:hover {
+    background-position: -64px -77px;
+}

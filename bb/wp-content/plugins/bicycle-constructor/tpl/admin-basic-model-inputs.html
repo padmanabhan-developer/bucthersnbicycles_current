@@ -1,0 +1,57 @@
+<div class="model_input" id="model_input_{$main_part_id}">
+	<div class="mi-input">
+		<input 
+			type="hidden" 
+			name="model[{$i}][model_id]"
+			id="model[{$i}][model_id]"
+			value="{$main_part_id}"
+		>
+		<label for="model[{$i}][name]">Name</label>
+		<input 
+			type="text" 
+			name="model[{$i}][name]" 
+			id="model[{$i}][name]"
+			placeholder="MK1"
+			value="{$name}"
+		>
+		<label for="model[{$i}][cost]">Price</label>
+		<input 
+			type="text" 
+			class="input_num" 
+			name="model[{$i}][cost]" 
+			id="model[{$i}][cost]"
+			placeholder="2500"
+			value="{$cost}"
+		>
+		<label for="model[{$i}][order]">Sort order</label>
+		<input 
+			type="text" 
+			class="input_num" 
+			name="model[{$i}][order]" 
+			id="model[{$i}][order]"
+			placeholder="1"
+			value="{$order}"
+		>
+		<label for="model[{$i}][in_stock]">In stock</label>
+		<input 
+			type="text" 
+			class="input_num" 
+			name="model[{$i}][in_stock]" 
+			id="model[{$i}][in_stock]"
+			placeholder="20"
+			value="{$in_stock}"
+		>
+		{$delete_btn}
+		<input type="button" value="Add new" class="add_model_input">
+		<div class="mi-textarea">
+			<textarea 
+				placeholder="Description"
+				name="model[{$i}][descr]" 
+				id="model[{$i}][descr]"
+				cols="70" rows="7"
+			>
+				{$descr}
+			</textarea>
+		</div>
+	</div>
+</div>

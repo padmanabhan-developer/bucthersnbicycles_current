@@ -1,0 +1,58 @@
+<div class="external_detail_input" id="external_detail_input_{$i}">
+	<input 
+		type="hidden" 
+		name="external[{$i}][external_part_id]"
+		value="{$external_part_id}"
+	>
+	<label for="external[{$i}][cost]">Cost:</label>
+	<input 
+		type="text" 
+		name="external[{$i}][cost]" 
+		id="external[{$i}][cost]"
+		placeholder="2000"
+		class="input_num"
+		value="{$cost}" 
+	>
+	<label for="external[{$i}][in_stock]">In stock:</label>
+	<input 
+		type="text" 
+		name="external[{$i}][in_stock]" 
+		id="external[{$i}][in_stock]"
+		placeholder="10"
+		class="input_num"
+		value="{$in_stock}" 
+	>
+	<label for="external[{$i}][name]">Name:</label>
+	<input 
+		type="text" 
+		name="external[{$i}][name]" 
+		id="external[{$i}][name]"
+		placeholder="White"
+		value="{$name}" 
+	>
+	<label for="external[{$i}][type_id]">Part Type:</label>
+	<select name="external[{$i}][type_id]">
+		{$part_types_select}
+	</select>
+	<label for="external[{$i}][order]">Display order:</label>
+	<input 
+		type="text" 
+		name="external[{$i}][order]" 
+		id="external[{$i}][order]"
+		placeholder="0"
+		class="input_num"
+		value="{$order}" 
+	>
+	{$delete_btn}
+	<input type="button" value="Add new" class="add_external_part_input">
+	<div class="ep-textarea">
+		<textarea 
+			placeholder="Description"
+			name="external[{$i}][descr]" 
+			id="external[{$i}][descr]"
+			cols="70" rows="7"
+		>
+			{$external_part_descr}
+		</textarea>
+	</div>
+</div>

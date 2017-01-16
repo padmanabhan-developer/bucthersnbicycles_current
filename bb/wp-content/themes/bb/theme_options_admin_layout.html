@@ -1,0 +1,25 @@
+<script>
+	jQuery(document).ready(function($) {
+		$("#bb_theme_tabs").tabs();
+	});
+</script>
+
+<div class="wrap">
+	<h2>B&B Theme options</h2>
+	<div id="bb_theme_tabs">
+		<ul>
+			<li><a href="#bb_theme_tabs-1">Logos</a></li>
+			<li><a href="#bb_theme_tabs-2">Colors</a></li>
+			<li><a href="#bb_theme_tabs-3">Menu items</a></li>
+		</ul>
+		<div id="bb_theme_tabs-1">
+			<?php include_once 'theme_options_logo.html'; ?>
+		</div>
+		<div id="bb_theme_tabs-2">
+			<?php include_once 'theme_options_colors.html'; ?>
+		</div>
+		<div id="bb_theme_tabs-3">
+			<?php include_once 'theme_options_menu_items.html'; ?>
+		</div>
+	</div>
+</div>

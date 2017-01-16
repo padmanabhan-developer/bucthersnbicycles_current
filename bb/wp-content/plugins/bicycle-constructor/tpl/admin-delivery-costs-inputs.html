@@ -1,0 +1,67 @@
+<div class="del_cost_inp" id="del_cost_inp_{$i}">
+	<input 
+		type="hidden" 
+		name="delivery_costs[{$i}][id]"
+		id="delivery_costs[{$i}][id]" 
+		value="{$id}" 
+	>
+	<div class="delivery_cost_inp">
+		<label for="delivery_costs[{$i}][country_name]"></label>
+		<input 
+			type="text" 
+			name="delivery_costs[{$i}][country_name]" 
+			id="delivery_costs[{$i}][country_name]"
+			placeholder="Select country"
+			value="{$country}" 
+			list="countries"
+		>
+		<input type="button" value="-" class="del_country_btn" data-input-id="{$i}">
+	</div>
+	<div class="delivery_cost_inp">
+		<label for="delivery_costs[{$i}][region_name]"></label>
+		<input 
+			type="text" 
+			name="delivery_costs[{$i}][region_name]" 
+			id="delivery_costs[{$i}][region_name]"
+			placeholder="Select region"
+			value="{$region}" 
+			list="regions"
+		>
+		<input type="button" value="-" class="del_region_btn" data-input-id="{$i}">
+	</div>
+	<div class="delivery_cost_inp">
+		<label for="delivery_costs[{$i}][delivery_service_name]"></label>
+		<input 
+			type="text" 
+			name="delivery_costs[{$i}][delivery_service_name]" 
+			id="delivery_costs[{$i}][delivery_service_name]"
+			placeholder="Select Delivery Service"
+			value="{$service}" 
+			list="delivery_services"
+		>
+		<input type="button" value="-" class="del_service_btn" data-input-id="{$i}">
+	</div>
+	<div class="delivery_cost_inp">
+		<label for="delivery_costs[{$i}][delivery_cost]"></label>
+		<input 
+			type="text" 
+			name="delivery_costs[{$i}][delivery_cost]" 
+			id="delivery_costs[{$i}][delivery_cost]"
+			placeholder="50"
+			value="{$cost}" 
+		>
+	</div>
+	<div class="delivery_cost_inp">
+		<label for="delivery_costs[{$i}][currency]"></label>
+		<input 
+			type="text" 
+			name="delivery_costs[{$i}][currency]" 
+			id="delivery_costs[{$i}][currency]"
+			placeholder="DKK"
+			value="{$currency}" 
+		>
+	</div>
+	<div class="delivery_cost_inp">
+		<input type="button" value="Delete record" class="delete_record_btn" data-input-id="{$i}" data-record-id="{$id}">
+	</div>
+</div>

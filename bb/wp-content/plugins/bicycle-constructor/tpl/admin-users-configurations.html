@@ -1,0 +1,24 @@
+<div class="help">
+	<p>Select user's email and you can see their configurations.</p>
+	<p>There are only users having configurations in the list.</p>
+	<p>You can find all users <a href="/wp-admin/users.php">here</a>.</p>
+</div>
+
+<div class="user_configurations">
+	<select 
+		name="users_emails" 
+		id="users_emails" 
+	>
+		{$user_emails_options}
+	</select>
+	<select 
+		name="users_configurations" 
+		id="users_configurations"
+	>
+		{$user_configuration_options}
+	</select>
+	Configuration ID: <span class="conf_id">{$conf_id}</span>
+</div>
+<div class="constructor_wrapper" id="user_configurations">
+	{$constructor_shortcode}
+</div>

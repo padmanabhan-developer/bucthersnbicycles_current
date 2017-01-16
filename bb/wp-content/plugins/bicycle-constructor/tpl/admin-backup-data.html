@@ -1,0 +1,32 @@
+<div>
+	<form action="" method="post" enctype="multipart/form-data">
+		<div class="table_select">
+			<span><h3>Select table:</h3></span>
+			<span>
+				<input class="tables" type="radio" name="table[name]" id="table-basic" value="gc_main_parts" data-table="gc_main_parts">
+				<label for="table-basic">Basic Models</label>
+			</span>
+			<span>
+				<input class="tables" type="radio" name="table[name]" id="table-external" value="gc_external_parts" data-table="gc_external_parts">
+				<label for="table-external">Details</label>
+			</span>
+		</div>
+		<div class="format_select">
+			<span><h3>Select format:</h3></span>
+			<span>
+				<input class="tables" type="radio" name="table[format]" value="csv" id="format-csv" data-format="csv">
+				<label for="format-csv">Comma-Separated Values (CSV)</label>
+			</span>
+		</div>
+		<div class="backup">
+			<h4>Backup:</h4>
+			<input type="button" value="Download" id="bk_download_btn">
+		</div>
+		<div class="restore">
+			<h4>Restore:</h4>
+			{$dump_nonce_field}
+			<input type="file" name="file" id="file">
+			<input type="submit" value="Upload">
+		</div>
+	</form>
+</div>

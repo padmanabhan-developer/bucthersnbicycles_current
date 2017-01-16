@@ -1,0 +1,10 @@
+#print-button {
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    cursor: pointer;
+    height: 100px;
+    position: relative;
+    top: -30px;
+    width: 8%;
+    z-index: 999 !important;
+}

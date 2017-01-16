@@ -1,0 +1,20 @@
+.cl_wrapper {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+.load-animation-holder {
+    background-image: url("/wp-content/plugins/bb-paypal/tpl/img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 45%;
+    width: 32px;
+}

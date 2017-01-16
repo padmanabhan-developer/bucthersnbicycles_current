@@ -1,0 +1,44 @@
+<h1>B&B Bicycle Constructor Settings Page</h1>
+
+<script>
+	jQuery(document).ready(function($) {
+		$("#bc_tabs").tabs();
+	});
+</script>
+
+<div id="bc_tabs">
+	<ul>
+		<li><a href="#bc_tabs_1">Main Settings</a></li>
+		<li><a href="#bc_tabs_2">See user's configs</a></li>
+		<li><a href="#bc_tabs_3">Basic Models</a></li>
+		<li><a href="#bc_tabs_4">Part Types</a></li>
+		<li><a href="#bc_tabs_5">External Details</a></li>
+		<li><a href="#bc_tabs_6">Upgrades</a></li>
+		<li><a href="#bc_tabs_7">Backup and Restore</a></li>
+		<li><a href="#bc_tabs_8">Delivery costs</a></li>
+	</ul>
+	<div id="bc_tabs_1">
+		{include="admin-main"}
+	</div>
+	<div id="bc_tabs_2">
+		{$admin_users_configurations}
+	</div>
+	<div id="bc_tabs_3">
+		{include="admin-basic-models"}
+	</div>
+	<div id="bc_tabs_4">
+		{include="admin-part-types"}
+	</div>
+	<div id="bc_tabs_5">
+		{include="admin-external-details"}
+	</div>
+	<div id="bc_tabs_6">
+		{include="admin-upgrades"}
+	</div>
+	<div id="bc_tabs_7">
+		{include="admin-backup-data"}
+	</div>
+	<div id="bc_tabs_8">
+		{include="admin-delivery-costs"}
+	</div>
+</div>

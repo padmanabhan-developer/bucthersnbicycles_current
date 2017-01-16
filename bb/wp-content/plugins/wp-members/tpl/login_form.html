@@ -1,0 +1,22 @@
+<div id="wpmem_login">
+	<form action="{$permalink}" method="post" class="form">
+		<legend> {$legend} </legend>
+		<div>Already have an account?</div>
+		<div class="form-inline-field-container">
+			<div class="left">
+				<div class="div_text">
+					{$login}
+				</div>
+			</div>
+			<div class="right">
+				<div class="div_text">
+					{$password}
+				</div>
+			</div>
+		</div>
+		<input type="hidden" name="redirect_to" value="{$redirect_to}">
+		{$login_buttons}
+		<div class="clear"></div>
+		
+	</form>
+</div>

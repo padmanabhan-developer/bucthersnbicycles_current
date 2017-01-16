@@ -1,0 +1,47 @@
+<form action="" method="post">
+	<div class="setpage-wrapper">
+		<div class="setpage-control">
+			<p>Go to PayPal and register merchant account. Create app with REST API support</p>
+			<p>
+				<label for="ppclientId">PayPal Client ID:</label>
+				<input 
+					type="text" 
+					name="ppclientId" 
+					id="ppclientId"
+					placeholder="AQkquBDf1zctJOWGKWUEtKXm6qVhueUEMvXO_-MCI4DQQ4-LWvkDLIN2fGsd"
+					value=" {$ppclientId} " 
+				>
+			</p>
+		</div>
+		<div class="setpage-control">
+			<p>
+				<label for="">PayPal Client Secret:</label>
+				<input 
+					type="text" 
+					name="ppclientsecret" 
+					id="ppclientsecret"
+					placeholder="EL1tVxAjhT7cJimnz5-Nsx9k2reTKSVfErNQF-CmrwJgxRtylkGTKlU4RvrX"
+					value=" {$ppclientsecret} "
+				>
+			</p>
+		</div>
+		<div class="setpage-control">
+			<p>
+				<label for="">Mode:</label>
+				<input 
+					type="text" 
+					name="ppsdkmode" 
+					id="ppsdkmode"
+					placeholder="sandbox or live"
+					value=" {$ppsdkmode} " 
+				>
+			</p>
+		</div>
+		<div class="setpage-control">
+			<p>
+				<input type="submit" value="Save">
+			</p>
+		</div>
+		{$wpnonce}
+	</div>
+</form>

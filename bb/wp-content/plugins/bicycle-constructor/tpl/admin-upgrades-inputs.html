@@ -1,0 +1,75 @@
+<div class="upgrades_input" id="upgrades_input_{$i}">
+	<div class="upgrades_inputs_inp">
+		<input 
+			type="hidden" 
+			name="upgrades[{$i}][external_part_id]"
+			id="upgrades[{$i}][external_part_id]"
+			value="{$external_part_id}" 
+		>
+		<input 
+			type="hidden"
+			name="upgrades[{$i}][img_path]"
+			id="upgrades[{$i}][img_path]"
+			value="{$upgrades_img_src}" 
+		>
+		<input 
+			type="hidden" 
+			name="upgrades[{$i}][img_id]"
+			id="upgrades[{$i}][img_id]"
+			value="{$upgrades_img_id}"
+		>
+		<label for="upgrades[{$i}][cost]">Cost:</label>
+		<input 
+			type="text"
+			id="upgrades[{$i}][cost]" 
+			name="upgrades[{$i}][cost]" 
+			placeholder="1200"
+			value="{$cost}"
+			class="input_num" 
+		>
+		<label for="upgrades[{$i}][in_stock]">In stock:</label>
+		<input 
+			type="text"
+			id="upgrades[{$i}][in_stock]" 
+			name="upgrades[{$i}][in_stock]" 
+			placeholder="10"
+			value="{$in_stock}"
+			class="input_num" 
+		>
+		<label for="upgrades[{$i}][name]">Name:</label>
+		<input 
+			type="text"
+			id="upgrades[{$i}][name]" 
+			name="upgrades[{$i}][name]" 
+			placeholder="Gates Carbon Drive"
+			value="{$name}"
+		>
+		<label for="upgrades[{$i}][order]">Display order:</label>
+		<input 
+			type="text"
+			id="upgrades[{$i}][order]" 
+			name="upgrades[{$i}][order]" 
+			placeholder="0"
+			value="{$order}"
+			class="input_num" 
+		>
+		{$delete_btn}
+		<input type="button" value="Add new" class="add_upgrades_input" title="Add input">
+	</div>
+	<div class="upgrades_inp_descr">
+		<div class="upgrades_input_img">
+			<img src="{$upgrades_img_src}" alt="Click to set image" title="Click to set image" class="upgrades_set_image" data-input-id="{$i}" id="upgrades_set_image_{$i}">
+		</div>	
+		<div class="up-textarea">
+			<textarea 
+				placeholder="Description"
+				name="upgrades[{$i}][descr]" 
+				id="upgrades[{$i}][descr]"
+				cols="70" rows="7"
+			>
+				{$upgrades_part_descr}
+			</textarea>
+		</div>
+	</div>
+	
+</div>

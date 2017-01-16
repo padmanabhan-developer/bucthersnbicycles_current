@@ -1,0 +1,80 @@
+<form action="" method="post">
+	<div class="setpage-wrapper">
+		<div class="setpage-control bb_opts_inp">
+			<?php $section_label = get_option('section_label'); ?>
+			<label for="section_label[section1]">Home</label>
+			<input 
+				type="text" 
+				name="section_label[section1]" 
+				id="section_label[section1]"
+				value="<?php echo $section_label['section1']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="section_label[section2]">Section 1</label>
+			<input 
+				type="text" 
+				name="section_label[section2]" 
+				id="section_label[section2]"
+				value="<?php echo $section_label['section2']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="section_label[section3]">Section 2</label>
+			<input 
+				type="text" 
+				name="section_label[section3]" 
+				id="section_label[section3]"
+				value="<?php echo $section_label['section3']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="section_label[section4]">Section 3</label>
+			<input 
+				type="text" 
+				name="section_label[section4]" 
+				id="section_label[section4]"
+				value="<?php echo $section_label['section4']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="section_label[section5]">Section 4</label>
+			<input 
+				type="text" 
+				name="section_label[section5]" 
+				id="section_label[section5]"
+				value="<?php echo $section_label['section5']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="section_label[section6]">Section 5</label>
+			<input 
+				type="text" 
+				name="section_label[section6]" 
+				id="section_label[section6]"
+				value="<?php echo $section_label['section6']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<label for="section_label[section7]">Section 6</label>
+			<input 
+				type="text" 
+				name="section_label[section7]" 
+				id="section_label[section7]"
+				value="<?php echo $section_label['section7']; ?>" 
+			>
+		</div>
+		<div class="setpage-control bb_opts_inp">
+			<?php $section_label = get_option('section_label'); ?>
+			<label for="section_label[section8]">Shop</label>
+			<input 
+				type="text" 
+				name="section_label[section8]" 
+				id="section_label[section8]"
+				value="<?php echo $section_label['section8']; ?>" 
+			>
+		</div>
+		<?php wp_nonce_field('bb_theme_settings_menu_items', 'settings_menu_items_submit'); ?>
+		<div><input type="submit" value="Submit"></div>
+	</div>
+</form>

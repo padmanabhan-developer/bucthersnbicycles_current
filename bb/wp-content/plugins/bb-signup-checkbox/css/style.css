@@ -1,0 +1,17 @@
+/* 
+    Created on : Mar 23, 2014, 2:47:46 AM
+    Author     : ipm
+*/
+
+.bb_signup_checkbox > div {
+    display: inline;
+}
+.bb_signup_checkbox_input {
+    width: 10%;
+}
+.bb_signup_checkbox_label {
+    width: 90%;
+}
+.bb_signup_checkbox {
+    width: 100%;
+}

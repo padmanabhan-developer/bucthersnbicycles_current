@@ -1,0 +1,34 @@
+
+/*
+	login and register forms
+*/
+
+@import 'vars';
+
+.login-wrapper div:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.button_div_wrapper {
+    width: 100%;
+    display: table;
+}
+
+.wpmem-pass-reset {
+    display: inline-block;
+}
+
+.form-inline-field-container > div {
+    display: inline-block;
+    width: 49.3% !important;
+}
+
+.form-inline-field-container input {
+    display: inline-block;
+}
+
+.news_subscription_checkbox {
+	padding: 25px 0;
+}

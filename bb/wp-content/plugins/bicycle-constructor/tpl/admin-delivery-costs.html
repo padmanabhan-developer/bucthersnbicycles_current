@@ -1,0 +1,25 @@
+<div class="help">
+	<p>Start typing country or delivery service name in respective comboboxes, then enter delivery cost and currency.</p>
+	<p>You can delete a country, a delivery service while it's not used anywhere, or delete the entire record.</p>
+	<p>To delete a country or delivery service you must first delete all records it's used in</p>
+</div>
+<form action="" method="post">
+	<div class="delivery_costs">
+		<datalist id="countries" >
+			{$countries_options}
+		</datalist>
+        <datalist id="regions" >
+			{$regions_options}
+		</datalist>
+		<datalist id="delivery_services" >
+			{$delivery_services_options}
+		</datalist>
+		
+		{$admin_delivery_costs_inputs}
+	</div>
+	<div class="delivery_cost_inp">
+		{$delivery_nonce_field}
+		<input type="button" id="add_delivery_input_field" value="Add new">
+		<input type="submit" value="Update">
+	</div>
+</form>

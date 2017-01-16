@@ -1,0 +1,31 @@
+
+.tooltipster-bb {
+    background: none repeat scroll 0 0 #3c3c3c;
+    border-radius: 1px;
+    color: #FFFFFF;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.tooltipster-bb .tooltipster-content {
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.tooltipster-bb .tooltipster-content a {
+    color: #bcb21e;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tooltipster-bb .tooltipster-content a:hover {
+    text-decoration: underline;
+}
+
+.tooltipster-bb .tooltipster-content p {
+    text-align: center;
+}

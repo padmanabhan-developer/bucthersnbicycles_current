@@ -1,0 +1,154 @@
+/*
+	Constructor
+*/
+.bb-constructor-head,
+.bc_saved_conf,
+.welcome-section-wrapper {
+  margin: 50px auto;
+}
+
+.bb-constructor-head {
+  margin: 50px auto;
+  height: 40px;
+  text-transform: uppercase;
+  background: #3c3c3c;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+  /*  border: 1px solid $contrast-color; */
+  border: 1px solid white;
+}
+
+.bb-constructor-head p {
+  margin: 8px;
+}
+
+.bc_save_this {
+  display: inline;
+  margin: 0 25px 0 0;
+}
+
+.bc_saved_conf {
+  border-bottom: 1px solid #090909;
+}
+
+.bc_save_this {
+  display: inline;
+  margin: 0 25px 0 0;
+  cursor: pointer;
+}
+
+.bc_save_this p {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 0 10px 10px;
+}
+
+.save, .gotosaved {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+  margin: 0 0 -5px;
+}
+
+.save {
+  background-image: url("/wp-content/themes/bb/images/Save.svg");
+  height: 35px;
+  width: 20px;
+}
+
+.gotosaved {
+  background-image: url("/wp-content/themes/bb/images/Save2.svg");
+  height: 25px;
+  width: 35px;
+  margin: 0 0 -9px 0;
+}
+
+.price {
+  font-size: 14pt;
+  text-transform: uppercase;
+  color: #090909;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.price > div,
+.bc-input-btn div {
+  display: inline;
+}
+
+.bc_btn,
+.constr_btn {
+  font-weight: normal !important;
+  font-size: 10pt !important;
+  cursor: pointer;
+  padding: 3px 20px !important;
+}
+
+.help_btn {
+  font-weight: normal;
+  height: 49px;
+  padding: 0 15px 0 15px !important;
+}
+
+.bc_select_wrap {
+  background: url("../images/change_currency_bg.png") no-repeat scroll 100% 100% #bcb21e;
+  height: 49px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.bc_select_wrap select {
+  background: none no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: none;
+  box-shadow: none;
+  width: 110% !important;
+  height: 49px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-weight: normal;
+  font-size: 11pt;
+  padding-top: 13px !important;
+}
+
+.bc_select_wrap select:focus {
+  outline: none;
+}
+
+.bc_select_wrap option {
+  background: #bcb21e;
+  width: 300px;
+  box-shadow: none;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.bbpaypal-btn {
+  height: 49px;
+  padding: 0 30px 0 20px !important;
+  background: url("../images/arrow.png") 97% 50% no-repeat #bcb21e;
+  background-size: 4%;
+  font-size: 11pt;
+}
+
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
+  .bc_featured_image {
+    display: block;
+    float: none;
+    height: auto;
+    width: auto;
+  }
+
+  .bc_external_parts {
+    text-align: center;
+  }
+}

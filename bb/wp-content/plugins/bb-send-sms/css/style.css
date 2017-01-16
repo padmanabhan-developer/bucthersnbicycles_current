@@ -1,0 +1,60 @@
+/*
+*	backend
+*/
+.setpage-wrapper {
+    margin-top: 30px;
+}
+.setpage-control {
+    width: 100%;
+}
+.setpage-control p > label {
+    width: 25%;
+}
+.setpage-control p > input {
+    width: 75%;
+}
+.setpage-control input {
+    width: 415px;
+    float: right;
+}
+.setpage-control input[type=submit] {
+    width: 150px;
+}
+.setpage-control label {
+    margin-left: 15px;
+}
+
+
+/*
+*	frontend
+*/
+#sendtophone-right p {
+    display: inline-block;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+#sendtophone {
+    margin: 20px 0 0 auto;
+    width: 100%;
+    display: table;
+}
+#sendtophone div {
+    display: inline;
+}
+#sendtophone-left {
+    float: left;
+}
+#sendtophone-right {
+    float: right;
+}
+#sendtophone-response {
+    display: none;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #ceffac;
+    padding: 5px;
+}
+

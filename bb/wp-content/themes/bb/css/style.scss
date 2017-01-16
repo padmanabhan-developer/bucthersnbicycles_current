@@ -1,0 +1,52 @@
+/*
+Theme Name: Butchers and Bicycles
+Theme URI: http://woto-info.com
+Description: WordPress theme for butchersandbicycles.com
+Version: 1
+Author: Igor Malinovskiy
+Author URI: http://woto-info.com
+*/
+
+
+@import 'fonts';
+
+@import 'vars';
+
+body {
+    background: none repeat scroll 0 0 $white;
+    color: $black;
+    font: 12px/1.4 $font-primary;
+    margin: 0;
+    min-width: 320px;
+}
+
+h1, legend {
+    font-family: $font-primary;
+    font-weight: 800;
+}
+
+#maincontent .section {
+    padding-top: 134px;
+}
+
+#maincontent,
+.maincont {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1366px), only screen and (max-device-width: 1366px) {
+    #maincontent,
+    .maincont {
+        width: 100%;
+    }
+}
+
+@import 'header';
+
+@import 'contacts';
+
+@import 'login';
+
+@import 'footer';

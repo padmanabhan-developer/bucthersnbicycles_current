@@ -1,0 +1,21 @@
+.du-ui-buttons input {
+    background: none repeat scroll 0 0 #3C3C3C;
+    border: medium none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: auto !important;
+    line-height: normal;
+    min-width: inherit !important;
+    width: auto !important;
+}
+
+.du-ui-buttons {
+    float: right;
+}
+
+#delete_user_message,
+.delete_user_message {
+    color: #d00000;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

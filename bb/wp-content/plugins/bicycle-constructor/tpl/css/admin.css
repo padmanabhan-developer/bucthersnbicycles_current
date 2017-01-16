@@ -1,0 +1,40 @@
+.mi-input {
+    width: 100%;
+}
+input[type="text"].input_num {
+    width: 5%;
+}
+input[type="text"] {
+    font-size: 0.9em;
+}
+.upgrades_input_img img {
+    height: auto;
+    max-width: 100%;
+    padding: 10px 0;
+    width: auto;
+}
+.upgrades_inp_descr > div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.upgrades_inp_descr {
+    width: 100%;
+}
+.upgrades_input_img {
+    width: 23%;
+}
+.delivery_cost_inp {
+	display: inline;
+}
+
+.help p {
+    margin: 0px;
+}
+.help {
+    margin-bottom: 20px;
+}
+
+.constructor_wrapper {
+    margin-top: 25px;
+}

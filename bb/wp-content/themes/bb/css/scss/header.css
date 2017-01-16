@@ -1,0 +1,42 @@
+/*
+    header
+*/
+#shop-header {
+  background: none repeat scroll #e6e6e6;
+  border-bottom: 2px solid #bcb21e;
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+
+#shop-logo {
+  background-image: url("/wp-content/themes/bb/images/logo_bb_shop.png");
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  display: inline-block;
+  height: 85px;
+  margin: 20px 0 0 10px;
+  width: 200px; }
+
+.sub-menu {
+  display: none; }
+
+#shop-nav {
+  display: inline-block;
+  font: 16px "Lato",sans-serif;
+  position: absolute;
+  top: 40%; }
+
+@media only screen and (max-width: 450px), only screen and (max-device-width: 450px) {
+  #shop-nav {
+    /* margin-left: -25% */
+    display: none; }
+
+  #shop-logo {
+    display: none; }
+
+  #maincontent .shop-section:first-child {
+    padding-top: 0px !important; }
+
+  .shop-section {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important; } }

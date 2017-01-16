@@ -1,0 +1,31 @@
+<div class="part_type_input" id="part_type_input_{$i}">
+	<input 
+		type="hidden" 
+		name="type[{$i}][type_id]"
+		value="{$type_id}" 
+	>
+	<label for="type[{$i}][name]">Type name:</label>
+	<input 
+		type="text"
+		name="type[{$i}][name]" 
+		id="type[{$i}][name]" 
+		placeholder="text to show in part types"
+		value="{$type_name}"
+	>
+	<label for="type[{$i}][type_is_required]">Is required?</label>
+	<input 
+		type="checkbox" 
+		name="type[{$i}][type_is_required]" 
+		id="type[{$i}][type_is_required]"
+		checked="{$type_is_required_checked}"
+	>
+	<label for="type[{$i}][order]">Display order:</label>
+	<input 
+		type="text"
+		name="type[{$i}][order]" 
+		id="type[{$i}][order]" 
+		placeholder="0"
+		value="{$type_display_order}" 
+	>
+	<input type="button" value="Add new" class="input_type_add_btn">
+</div>

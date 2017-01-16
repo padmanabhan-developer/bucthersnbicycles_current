@@ -1,0 +1,53 @@
+<form action="" method="post">
+  <input 
+    type="hidden" 
+    name="bb_theme_header_logo" 
+    id="bb_theme_header_logo"
+    value="<?php echo get_option('bb_theme_header_logo'); ?>"
+  >
+  <input 
+    type="hidden" 
+    name="bb_theme_footer_logo" 
+    id="bb_theme_footer_logo"
+    value="<?php echo get_option('bb_theme_footer_logo'); ?>"
+  >
+  <input 
+    type="hidden" 
+    name="bb_theme_shop_header_logo" 
+    id="bb_theme_shop_header_logo"
+    value="<?php echo get_option('bb_theme_shop_header_logo'); ?>"
+  >
+  <h3>Header logo:</h3>
+  <p>(click image to change)</p>
+  <div class="bb_theme_input_img">
+    <img 
+      src="<?php echo get_option('bb_theme_header_logo'); ?>" 
+      alt="header logo" 
+      class="bb_theme_set_image" 
+      data-input-id="bb_theme_header_logo"
+      id="bb_theme_header_logo_img"
+    >
+  </div>
+  <h3>Footer logo:</h3>
+  <div class="bb_theme_input_img">
+    <img 
+      src="<?php echo get_option('bb_theme_footer_logo'); ?>" 
+      alt="footer logo" 
+      class="bb_theme_set_image" 
+      data-input-id="bb_theme_footer_logo"
+      id="bb_theme_footer_logo_img"
+    >
+  </div>
+  <h3>Shop header logo:</h3>
+  <div class="bb_theme_input_img">
+    <img 
+      src="<?php echo get_option('bb_theme_shop_header_logo'); ?>" 
+      alt="shop header logo" 
+      class="bb_theme_set_image" 
+      data-input-id="bb_theme_shop_header_logo"
+      id="bb_theme_shop_header_logo_img"
+    >
+  </div>
+  <?php wp_nonce_field('bb_theme_settings_logo', 'settings_logo_submit'); ?>
+  <input type="submit" value="Submit">
+</form>

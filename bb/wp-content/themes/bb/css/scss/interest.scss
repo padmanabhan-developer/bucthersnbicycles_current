@@ -1,0 +1,48 @@
+/*
+	we offer 0% interest financing
+*/
+
+@import 'vars';
+
+.interest_offer {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    background: $dark-grey;
+    color: $white;
+    padding: 3% 0;
+}
+
+.intwrapper :first-child {
+    margin-right: 1.8%;
+}
+
+.intwrapper :last-child {
+    margin-left: 1.8%;
+}
+
+.intwrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wmarg {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+	.interest_offer {
+		display: block;
+		width: 70%;
+		margin: 10px auto !important;
+	}
+}
+
+@media only screen and (max-width: 990px), only screen and (max-device-width: 990px) {
+    .interest_offer {
+        display: block;
+        width: 50%;
+        margin: 10px auto !important;
+    }
+}

@@ -1,0 +1,12 @@
+/*
+    admin styles
+*/
+
+.bb_opts_inp {
+    width: 25%;
+    line-height: 30px;
+}
+
+.bb_opts_inp > input[type="text"] {
+    width: 150px;
+}

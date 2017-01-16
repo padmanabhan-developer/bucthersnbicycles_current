@@ -1,0 +1,121 @@
+.bb_bicycle_constructor_wrapper {
+    width: 99%;
+    margin: 0 auto;
+    max-width: 99%;
+}
+
+.bc_featured_image img,
+.gc-conf-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bc_required_parts p {
+    margin: 0 0 5px 0;
+}
+
+.bc_body {
+    display: inline-block;
+    width: 100%;
+}
+
+.bc_parts {
+    display: inline-block;
+    float: left;
+    width: 18%;
+}
+
+.bc_featured_image,
+.gc-conf-img {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width: 80%;
+    height: 450px;
+    position: relative;
+}
+
+#maincontent .bc_parts li {
+    list-style: none;
+    margin: 0 0 0 -45px;
+}
+
+.bc_ajax_response {
+    display: none;
+}
+
+.bc_ajax_response p {
+    font-size: 12pt;
+    color: red;
+    margin: 10px 0;
+}
+
+.bc_external_parts p {
+    display: block;
+}
+
+.bc-external-item {
+    display: inline-block;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.bc-external-item-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 135px;
+}
+
+.bc-external-item-name {
+    color: #3c3c3c;
+}
+
+@media only screen and (max-width: 1000px), only screen and (max-device-width: 1000px) {
+    .bc-external-item {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+    .bb-constructor-head {
+        width: 100% !important;
+    }
+
+    .bb_bicycle_constructor_wrapper{
+        width: 100%;
+    }
+
+    .bc_body {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .bc_parts {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .bc_base_conf {
+        display: inline-block;
+        float: left;
+        width: 49%;
+    }
+
+    .bc_required_parts {
+        display: inline-block;
+        float: right;
+        width: 49%;
+    }
+
+    .bc_featured_image {
+        height: 250px;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
+    .bc-external-item {
+        display: block;
+        margin: 0;
+    }
+}

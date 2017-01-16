@@ -1,0 +1,43 @@
+.image-map-wrapper {
+	width: 100%;
+	text-align: center;
+    position: relative;
+}
+.map-image-holder {
+    position: relative;
+    display: inline-block;
+	max-width: 100%;
+}
+.map-image-holder img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.map-image-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27px;
+    height: 27px;
+    background-image: url("../images/icon.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    opacity: 1 !important;
+    z-index: 900 !important;
+}
+.bb_imagemap_slider {
+    list-style: none outside none;
+    position: absolute;
+    text-align: left;
+    top: 50px;
+}
+.bb_imagemap_slide span {
+    padding: 0 0 0 5px;
+}
+.tech-dialog-head {
+    color: #fff !important;
+}
+
+.tech-dialog {
+    text-align: center;
+}

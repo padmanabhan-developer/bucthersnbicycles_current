@@ -1,0 +1,87 @@
+.gc-conf-head-wrapper {
+    width: 40%;
+}
+
+.gc-conf-head {
+    display: block;
+    width: 100%;
+}
+
+.gc-conf-head > div {
+    display: inline-block;
+}
+
+.gc-conf-name {
+    display: inline-block;
+    margin: 5px;
+    width: 80%;
+}
+
+.headinp-btn {
+    float: right;
+    margin: 5px;
+    width: 10%;
+}
+
+.gc-conf-name > div {
+    display: inline;
+}
+
+.conf-name-p {
+    margin: 0 5px;
+}
+
+p.gc-conf-name {
+    color: #090909;
+}
+
+.gc-head-saved {
+    margin: -5px 0 0 35px;
+    color: #cacaca;
+}
+
+.gc_head_saved {
+    margin: -20px 0 0 0 !important;
+}
+
+.gc_head_name {
+    margin: 0px !important;
+}
+
+.gc-conf > div {
+    display: inline-block;
+}
+
+.gc-conf-img {
+    width: 50% !important;
+}
+
+.gc-headconf-name {
+    font-size: 15pt;
+    color: #3c3c3c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gc-conf-detail {
+    width: 100%;
+    display: block;
+    min-height: 300px;    
+}
+
+.gc-standard, .gc-added {
+    width: 50%;
+}
+
+.expart span {
+    width: 50%;
+}
+
+.expart {
+    display: block;
+    width: 100%;
+}
+
+.sc_buttons div {
+    display: inline-block;
+}
